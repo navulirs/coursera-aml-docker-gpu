@@ -7,11 +7,16 @@ The base image may or may not be compatible to your target GPU. This image is te
 Refer to https://hub.docker.com/r/nvidia/cuda/ for other available CUDA images.
 Refer to https://developer.nvidia.com/cuda-gpus for CUDA compatibility.
 
+Requirements:
+a) Machine with CUDA compatible NVIDIA GPU and enabled.
+b) NVIDIA Drivers installed. 
+c) NVIDIA Docker Installed - https://github.com/NVIDIA/nvidia-docker
+
 Build:
 
 sudo nvidia-docker build . --tag coursera-aml-gpu
 
-Test: TBD
+Test: docker run --runtime=nvidia --rm coursera-aml-gpu nvidia-smi
 
 Run: 
 
