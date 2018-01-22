@@ -9,7 +9,7 @@ Refer to https://developer.nvidia.com/cuda-gpus for CUDA compatibility.
 
 Requirements:
 
-a) Machine with CUDA compatible NVIDIA GPU and it is enabled. If the machine comes with dual GPU (e.g. with Intel Integrated Graphics), need to switch the operating system to use NVIDIA GPU.
+a) Machine with CUDA compatible NVIDIA GPU and it is enabled. If the machine comes with dual graphics cards (e.g. with Intel Integrated Graphics), need to switch the operating system to use NVIDIA GPU.
 
 b) NVIDIA Drivers installed - 
      
