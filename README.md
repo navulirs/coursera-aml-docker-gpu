@@ -6,12 +6,11 @@ Build:
 
 sudo nvidia-docker build . --tag coursera-aml-gpu
 
-Test:
-<TBD>
+Test: TBD
 
 Run: 
 
-sudo nvidia-docker run -dit -p 8080:8080 --name cousera-aml coursera-aml-gpu
+sudo nvidia-docker run -dit -p 8080:8080 --name coursera-aml coursera-aml-gpu
 
 Todo:
 Add Tensorboard
