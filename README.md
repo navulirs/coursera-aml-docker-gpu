@@ -13,7 +13,7 @@ a) Machine with CUDA compatible NVIDIA GPU and it is enabled. If the machine com
 
 b) NVIDIA Drivers installed - 
      
-      There are many websites provide guide on installing NVIDIA Drivers. A recommendation is to use install the driver if the operating system already provides a way to aquire the driver through its default means. As an example, in Ubuntu 16.04 LTE edition, NVIDIA driver can be installed by ensuring NVIDIA GPU is selected on the Settings --> Software Updates tab. IMO, this is easiest and safest method.
+      There are many websites provide guide on installing NVIDIA Drivers. A recommendation is to use easier method if the operating system already provides a way to aquire the driver through its default means. An example is in Ubuntu 16.04 LTE edition NVIDIA driver can be installed by ensuring NVIDIA GPU is selected on the Settings --> Software Updates tab. IMO, this is easiest and safest method.
       
  A Caution:
  
