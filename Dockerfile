@@ -1,5 +1,5 @@
 #FROM ubuntu:16.04
-FROM nvidia/cuda:8.0-devel-ubuntu16.04
+FROM nvidia/cuda:8.0-cudnn6-devel-ubuntu16.04
 ARG DEBIAN_FRONTEND=noninteractive
 
 # install apt packages
