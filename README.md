@@ -16,7 +16,9 @@ Build:
 
 sudo nvidia-docker build . --tag coursera-aml-gpu
 
-Test: sudo nvidia-docker run --rm coursera-aml-gpu nvidia-smi
+Test: 
+
+sudo nvidia-docker run --rm coursera-aml-gpu nvidia-smi
 
 Run: 
 
