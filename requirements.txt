@@ -10,7 +10,7 @@ nltk>=3.2.5
 numpy==1.22.0
 opencv-python==4.2.0.32
 pandas==0.19.2
-Pillow==8.3.2
+Pillow==10.3.0
 requests==2.31.0
 scikit-learn==1.5.1
 scipy==0.18.1
